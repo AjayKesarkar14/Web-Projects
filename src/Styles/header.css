@@ -1,0 +1,31 @@
+.NavBar{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 3px 4px rgb(63, 62, 62);
+
+}
+.nav-main{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-main a{
+    text-decoration: none;
+    color: rgb(3, 3, 87);
+    margin: 1rem;
+   
+    font: 400 1.7rem cursive;
+
+}
+.nav-main a:hover{
+    color: rgb(233, 158, 88);
+    
+}

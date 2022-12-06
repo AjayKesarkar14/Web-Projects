@@ -1,0 +1,8 @@
+@media screen and (max-width: 395px) {
+    
+
+    .about-content{
+        height: 120vh;
+        width: 80%;   
+    }
+}

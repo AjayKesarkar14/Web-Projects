@@ -1,0 +1,76 @@
+.contact{
+    background-color: rgb(201, 201, 247);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact main{
+background-color: rgb(218, 240, 140);
+width: 70%;
+height: 30rem;
+
+border: 1px rgb(236, 215, 215) solid;
+border-radius: 0 200px 0 200px;
+box-shadow: 0 2px 6px rgb(0, 0, 0);
+}
+
+
+.contact h1{
+    font: 600 1.8rem roboto;
+    color: rgb(36, 7, 65);
+    border-bottom: 2px rgb(36, 7, 65) solid;
+    width: 12rem;
+    margin: 0 2rem;
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+
+
+}
+
+.contact form{
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+form div{
+    height: 3rem;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    margin: 0.5rem;
+}
+
+form label{
+    font: 400 1.3rem cursive;
+    width: 20%;
+    margin: 0 1rem;
+}
+form input{
+    align-self: stretch;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(123, 123, 123, 0.6);
+    outline: none;
+}
+
+form button{
+margin: 3rem 0;
+padding: 0.7rem;
+border: none;
+border-radius: 5px;
+background-color: rgb(129, 50, 231);
+color: white;
+width: 200px;
+font: 500 1.2rem cursive;
+}
+form button:hover{
+    opacity: 0.9;
+}
